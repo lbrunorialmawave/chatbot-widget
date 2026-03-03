@@ -1,0 +1,66 @@
+{
+  "entityConfig": {
+    "name": "Guida MLPS",
+    "logo": "",
+    "description": "Assistente virtuale",
+    "subtitle": "Il tuo assistente AI",
+    "institutionalUrl": "https://www.lavoro.gov.it"
+  },
+  "contentConfig": {
+    "welcomeMessage": "Ciao",
+    "subtitleMessage": "Di cosa hai bisogno?",
+    "descriptionMessage": "Sono l'assistente virtuale e posso aiutarti a trovare informazioni su servizi, procedure, normative e contatti. Scrivi la tua richiesta in modo semplice e chiaro.",
+    "inputPlaceholder": "Inserisci qui il testo della tua domanda",
+    "sendButtonLabel": "Invia",
+    "botAvatar": "icon/webp/chatbot-avatar.webp",
+    "errorMessages": {
+      "generic": "Si è verificato un errore. Riprova più tardi.",
+      "network": "Errore di connessione. Controlla la tua rete.",
+      "timeout": "La richiesta è scaduta.",
+      "auth": "Errore di autenticazione.",
+      "rateLimit": "Troppe richieste. Attendi qualche istante.",
+      "messageTooLong": "Il messaggio è troppo lungo.",
+      "inactiveSession": "Sessione scaduta per inattività. Clicca Nuova Chat per aprire una nuova sessione."
+    },
+    "typingIndicator": "Sta scrivendo...",
+    "retryButton": "Riprova",
+    "newChatButton": "Nuova Chat",
+    "closeConfirmation": "Sei sicuro di voler chiudere la chat?"
+  },
+  "uiConfig": {
+    "position": "bottom-right",
+    "offsetX": 20,
+    "offsetY": 20,
+    "width": 398,
+    "height": 538,
+    "openMode": "closed",
+    "openDelay": 0,
+    "animation": "slide-up",
+    "animationDuration": 300,
+    "toggleButtonSize": 60,
+    "zIndex": 9999,
+    "mobileBreakpoint": 768,
+    "fullscreenOnMobile": true
+  },
+  "apiConfig": {
+    "baseUrl": "http://localhost:8080",
+    "timeoutSSE": 300000
+  },
+  "featuresConfig": {
+    "enableTypingIndicator": true,
+    "enableFullScreenOnMobile": true,
+    "enableCloseConfirmation": false
+  },
+  "themeConfig": {
+    "primaryColor": "#0066CC",
+    "secondaryColor": "#6c757d",
+    "backgroundColor": "#ffffff",
+    "fontFamily": "'Titillium Web', sans-serif",
+    "textColor": "#1a1a1a",
+    "headerTextColor": "#ffffff",
+    "userMessageColor": "#0066CC",
+    "userMessageTextColor": "#ffffff",
+    "botMessageColor": "#f8f9fa",
+    "botMessageTextColor": "#1a1a1a"
+  }
+}
